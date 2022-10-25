@@ -1,5 +1,5 @@
 /* 
-    Problem - Give a number 'n', find the first 'n' elements of the Fibonacci sequence
+    Problem - Given a number 'n', find the first 'n' elements of the Fibonacci sequence
 
     In mathematics, the Fibonacci is a sequence in which each number 
     is the sum of the two preceding ones. 
