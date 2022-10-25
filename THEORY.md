@@ -59,7 +59,7 @@
 
 # Math Algorithms
 
-    - Fibonacci sequencec
+    - Fibonacci sequence
     - Factorial of a number
     - Prime number
     - Power of two
