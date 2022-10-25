@@ -66,3 +66,8 @@
     - Recursion
     - Fibonacci sequence with recursion
     - Factorial of aa number with recursion
+
+# Recursion
+
+    - a problem solving technique where the solution dependes on solutions to smaller instances of the same problem
+    - function calls itself
