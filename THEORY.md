@@ -56,3 +56,13 @@
     - Push/Pop - O(1)
     - Shift/Unshift/Concat/Slice/Splice - O(n)
     - ForEach/Map/Filter/Reduce - O(n)
+
+# Math Algorithms
+
+    - Fibonacci sequencec
+    - Factorial of a number
+    - Prime number
+    - Power of two
+    - Recursion
+    - Fibonacci sequence with recursion
+    - Factorial of aa number with recursion
