@@ -36,3 +36,23 @@
     - describes the complexity of an algorithm using algebric terms
     - it is expressed in terms of the input
     - it focuses on the bigger picture without getting caught in the minute details
+
+# Objects - Big O
+
+    - Insert - O(1)
+    - Remove - O(1)
+    - Access - O(1)
+    - Search - O(n)
+    - Object.keys() - O(n)
+    - Object.values() - O(n)
+    - Object.entries() - O(n)
+
+# Arrray
+
+    - Insert/Remove at end - O(1)
+    - Insert/Remove at beginning - O(n)
+    - Access with index - O(1)
+    - Search - O(n)
+    - Push/Pop - O(1)
+    - Shift/Unshift/Concat/Slice/Splice - O(n)
+    - ForEach/Map/Filter/Reduce - O(n)
