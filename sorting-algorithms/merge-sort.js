@@ -1,0 +1,37 @@
+/*
+    Problem - Given an array of integers, sort the array
+
+    const arr = [-6, 20, 8, -2, 4]
+
+    mergeSort(arr) => Should return [-6, -2, 4 8, 20]
+*/
+
+function mergeSort(arr) {
+    if (arr.length < 2) {
+        return arr;
+    }
+
+    const middle = Math.floor(arr.length / 2);
+    const leftArr = arr.slice(0, middle);
+    const rightArr = arr.slice(middle);
+
+    return merge(mergeSort(leftArr), mergeSort(rightArr));
+}
+
+function merge(leftArr, rightArr) {
+    const sortedArr = [];
+
+    while (leftArr.length && rightArr.length) {
+        if (leftArr[0] <= rightArr[0]) {
+            sortedArr.push(leftArr.shift());
+        } else {
+            sortedArr.push(rightArr.shift());
+        }
+    }
+
+    return [...sortedArr, ...leftArr, ...rightArr];
+}
+
+// Big O(Time complexity) =  0(n log n)
+
+console.log(mergeSort([-6, 20, 8, -2, 4])); // [-6, -2, 4, 8, 20]
