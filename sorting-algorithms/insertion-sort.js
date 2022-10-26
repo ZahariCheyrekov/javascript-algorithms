@@ -3,7 +3,7 @@
 
     const arr = 
 
-    insertionSort => Should return [-6, -2, 4. 8, 20]
+    insertionSort => Should return [-6, -2, 4 8, 20]
 */
 
 function insertionSort(arr) { // O(n^2)
