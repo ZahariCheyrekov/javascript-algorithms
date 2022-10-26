@@ -1,7 +1,7 @@
 /*
     Problem - Given an array of integers, sort the array
 
-    const arr = 
+    const arr = [-6, 20, 8, -2, 4]
 
     insertionSort => Should return [-6, -2, 4 8, 20]
 */
